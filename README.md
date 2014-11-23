@@ -167,6 +167,12 @@
         mpv (http://mpv.io)
 
         mplayer # 我的linux上mpv播放wmv出错，换用mplayer
+        
+        补充安装顺序：
+        a.sudo apt-get install build-essential libssl-dev libffi-dev python-dev
+        b.pip install pyopenssl ndg-httpsclient pyasn1
+        c.pip install requests-toolbelt
+        d pip install rsa django-mptt
 
 2. 使用说明
 
